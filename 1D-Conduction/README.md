@@ -86,3 +86,6 @@ pip install numpy matplotlib
 # Run the script
 python heat_conduction_simulation.py
 
+7. Example Output
+<p align="center"> <img src="temperature_distribution.gif" width="500"/> </p>
+
