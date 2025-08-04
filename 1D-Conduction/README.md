@@ -1,4 +1,4 @@
-# 🔥 1D Heat Conduction Simulation
+#  1D Heat Conduction Simulation
 
 ## 1. Overview
 
