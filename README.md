@@ -23,22 +23,17 @@ This project numerically models **heat conduction** in both **1D rods** and **2D
 Both simulations solve the **heat equation** using an **explicit finite difference scheme**:
 
 - **1D Heat Equation**  
-  \[
-  \frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-  \]
+  ∂T/∂t = α ∂²T/∂x²
 
 - **2D Heat Equation**  
-  \[
-  \frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)
-  \]
+  ∂T/∂t = α ( ∂²T/∂x² + ∂²T/∂y² )
 
-- Stability condition for both is enforced via:
-  \[
-  \Delta t \leq \frac{1}{2} \cdot \frac{\Delta x^2}{\alpha} \quad \text{(1D)}
-  \]
-  \[
-  \Delta t \leq \frac{1}{4} \cdot \min\left(\frac{\Delta x^2}{\alpha}, \frac{\Delta y^2}{\alpha} \right) \quad \text{(2D)}
-  \]
+- **Stability Conditions**  
+  - For 1D:  
+    Δt ≤ (1/2) · Δx² / α
+  - For 2D:  
+    Δt ≤ (1/4) · min(Δx² / α, Δy² / α)
+
 
 ---
 
