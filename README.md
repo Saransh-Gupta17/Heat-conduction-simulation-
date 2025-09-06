@@ -1,6 +1,6 @@
-# 🔥 Heat Conduction Simulation in 1D and 2D
+#  Heat Conduction Simulation in 1D and 2D
 
-## 🧪 Project Overview
+##  Project Overview
 
 This project numerically models **heat conduction** in both **1D rods** and **2D square plates** using the **finite difference method (FDM)**. The simulations are implemented in Python and visually animated to demonstrate how temperature evolves over time within a domain under specific boundary conditions.
 
@@ -13,12 +13,12 @@ This project numerically models **heat conduction** in both **1D rods** and **2D
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 
 ---
 
-## ⚙️ Numerical Method
+##  Numerical Method
 
 Both simulations solve the **heat equation** using an **explicit finite difference scheme**:
 
@@ -37,16 +37,16 @@ Both simulations solve the **heat equation** using an **explicit finite differen
 
 ---
 
-## 🔍 Explore Simulations
+##  Explore Simulations
 
-### 🔹 [1D Heat Conduction](./1D-Conduction/)
+###  [1D Heat Conduction](./1D-Conduction/)
 - Rod length: 50 mm  
 - 20 grid points  
 - Fixed temperatures: 70 °C (left), 100 °C (right)  
 - Initial interior: 20 °C  
 - Animation shows temperature distribution across the rod
 
-### 🔹 [2D Heat Conduction](./2D-Conduction/)
+###  [2D Heat Conduction](./2D-Conduction/)
 - Plate size: 50 × 50 mm  
 - 20 × 20 grid  
 - Fixed boundary temperatures: 10 °C and 100 °C  
@@ -54,7 +54,7 @@ Both simulations solve the **heat equation** using an **explicit finite differen
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
