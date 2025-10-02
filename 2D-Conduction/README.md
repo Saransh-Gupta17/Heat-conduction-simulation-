@@ -38,9 +38,9 @@ To maintain numerical stability:
 
 ##3. Features
 
-✅ 2D heat conduction simulation on a square plate  
-📈 Fully animated temperature field over time  
-🔁 Dirichlet boundary conditions (fixed temperatures on all edges)  
+2D heat conduction simulation on a square plate  
+Fully animated temperature field over time  
+Dirichlet boundary conditions (fixed temperatures on all edges)  
 Customizable mesh resolution and physical parameters  
 Animation saved as `.gif` using frame-by-frame stitching with PIL  
 
