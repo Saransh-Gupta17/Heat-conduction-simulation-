@@ -1,6 +1,6 @@
-#  2D Heat Conduction Simulation
+2D Heat Conduction Simulation
 
-## 1. Overview
+1. Overview
 
 This repository contains a Python-based simulation of **2D transient heat conduction** in a square plate using the **finite difference method (FDM)**. The simulation numerically solves the 2D heat equation and visualizes the evolving temperature field as an animated GIF.
 
@@ -10,7 +10,7 @@ This repository contains a Python-based simulation of **2D transient heat conduc
 
 ---
 
-## 2. Physical and Numerical Background
+2. Physical and Numerical Background
 
 This simulation is governed by the **2D heat equation**:
 
@@ -36,7 +36,7 @@ To maintain numerical stability:
 
 ---
 
-##3. Features
+3. Features
 
 2D heat conduction simulation on a square plate  
 Fully animated temperature field over time  
@@ -46,4 +46,4 @@ Animation saved as `.gif` using frame-by-frame stitching with PIL
 
 ---
 
-## 4. Simulation Setup
+4. Simulation Setup
